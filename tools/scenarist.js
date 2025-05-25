@@ -8,7 +8,7 @@ this .play = new Proxy ( typeof ( this .scenario = scenario ) === 'function' ? s
 this .player = player;
 
 if ( typeof scenario === 'object' && typeof this .scenario ?.$_producer === 'function' )
-this .play ( Symbol .for ( 'producer' ) );
+scenario [ Symbol .for ( 'production' ) ] = this .play ( Symbol .for ( 'producer' ) );
 
 };
 

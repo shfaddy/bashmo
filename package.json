@@ -2,9 +2,15 @@
   "name": "bashmo",
   "version": "1.0.0",
   "description": "Shaikh Faddy's Bashmo",
-  "main": "index.mjs",
-  "exports": "./index.mjs",
-  "bin": "./shell.mjs",
+  "type": "module",
+  "main": "shell/index.js",
+  "exports": {
+    ".": "./logic/index.js",
+    "./scenarist": "./tools/scenarist.js",
+    "./maitre": "./tools/maitre.js",
+    "./shell": "./shell/index.js"
+  },
+  "bin": "./server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shfaddy/bashmo.git"
