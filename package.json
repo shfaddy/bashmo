@@ -1,0 +1,24 @@
+{
+  "name": "bashmo",
+  "version": "1.0.0",
+  "description": "Shaikh Faddy's Bashmo",
+  "main": "index.mjs",
+  "exports": "./index.mjs",
+  "bin": "./shell.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shfaddy/bashmo.git"
+  },
+  "author": "Shaikh Faddy <shfaddy@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/shfaddy/bashmo/issues"
+  },
+  "homepage": "https://github.com/shfaddy/bashmo#readme",
+  "dependencies": {
+    "openai": "^4.100.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.1"
+  }
+}
